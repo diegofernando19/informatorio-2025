@@ -6,5 +6,8 @@
 fecha = input("Ingrese fecha en formato AAAMMDD:")
 meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiempre", "octubre", "noviembre", "diciembre"]
 
-mes_ingresado = fecha[4:6]
-
+mes_ingresado = int(fecha[4:6])
+if 1 <= mes_ingresado <= 12:
+    print(f"El mes es {meses[mes_ingresado -1]}")
+else:
+    print("La fecha ingresada no tiene el formato correspondiente...")
