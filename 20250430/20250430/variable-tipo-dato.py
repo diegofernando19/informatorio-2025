@@ -53,5 +53,6 @@
 # tupla = ("Matteo", "Paola", "Diego")
 # print(tupla[2])
 
-diccionario = {"27438878" : "Diego Sanchez", "27438879" : "Diego Sancho"}
-print(diccionario["27438878"])
+# diccionario = {"27438878" : "Diego Sanchez", "27438879" : "Diego Sancho"}
+# print(diccionario["27438878"])
+
